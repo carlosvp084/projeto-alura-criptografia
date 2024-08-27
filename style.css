@@ -1,0 +1,120 @@
+*{
+    background: #F3F5FC;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+.logoalura{
+    margin-left: 50px;
+    padding-top: 50px;
+    width: 10%;
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display:flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 60px; 
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 50px;
+    text-transform: lowercase;
+    resize: none;
+
+}
+::placeholder {color: #0A3871;}
+.textarea:focus{outline: none;}
+.mensagem-container {
+    position: relative;
+    text-align: center; 
+}
+    .mensagem{
+        background: white;
+        background-image:url(/boneco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    resize: none;
+
+
+    }
+    .mensagem:focus{
+        outline: none;
+    }
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.btn-encriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871 ;
+    border-radius: 24px;
+    color:white;
+    cursor:pointer;
+    height: 61px;
+    width: 328px;
+
+}
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871 ;
+    border-radius: 24px;
+    color:white;
+    cursor:pointer;
+    height: 61px;
+    width: 328px;
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871 ;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor:pointer;
+    height: 67px;
+    margin-top: 402px;
+    margin-left: 100px;
+    position: absolute;
+    width: 328px;
+}
+.informacao h6 {
+    color:#495057;
+    font-size:18px;
+    background-image:url(/frame1.png);
+    background-repeat: no-repeat;
+}
+footer {
+    
+    color: #0A3871; 
+    text-align: center; 
+    padding: 10px 0; 
+    position: fixed; 
+    width: 100%; 
+    bottom: 0; 
+    font-size: 16px; 
+}
